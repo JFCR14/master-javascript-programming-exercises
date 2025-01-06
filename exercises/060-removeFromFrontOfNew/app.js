@@ -1,5 +1,9 @@
 function removeFromFrontOfNew(arr) {
-    // your code here
+     let array = arr.slice(0);
+     array.shift();
+     return array;
+     
+    
     
 }
 
