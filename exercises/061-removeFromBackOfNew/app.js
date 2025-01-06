@@ -1,5 +1,7 @@
 function removeFromBackOfNew(arr) {
-  // your code here
+  let array = arr.slice();
+  array.pop();
+  return array;
   
 }
 
